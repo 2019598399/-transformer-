@@ -13,7 +13,7 @@
 
 ## 技术亮点
 
-![75449003014](C:\Users\Dean\AppData\Local\Temp\1754490030140.png)
+![75449003014](https://github.com/2019598399/-transformer-/blob/main/%E9%A1%B9%E7%9B%AE%E6%9E%B6%E6%9E%84%E8%AF%B4%E6%98%8E.png)
 
 1. **多任务学习架构**
    - 共享Transformer编码器
@@ -240,6 +240,7 @@ python\ndef climbing_stairs(n: int) -> int:\n    if n == 0 or n == 1:\n        r
 4. **选择题**：输出格式优化
 
 > 测试条件：相同prompt模板，temperature=0.8
+
 
 
 
