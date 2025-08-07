@@ -144,9 +144,8 @@ project/
 
 ![75449275479](https://github.com/2019598399/-transformer-/blob/main/train_loss_curve.png)
 
-​												图二
 
-loss曲线如图二所示。我们最终选择Epochs=6，因为在此轮数下模型表现最好，未出现过拟合现象。
+loss曲线如图所示。我们最终选择Epochs=6，因为在此轮数下模型表现最好，未出现过拟合现象。
 
 ### 部分测试集及推理结果对比展示
 
@@ -240,6 +239,7 @@ python\ndef climbing_stairs(n: int) -> int:\n    if n == 0 or n == 1:\n        r
 4. **选择题**：输出格式优化
 
 > 测试条件：相同prompt模板，temperature=0.8
+
 
 
 
