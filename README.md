@@ -142,7 +142,7 @@ project/
 
 ## 实验结果
 
-![75449275479](C:\Users\Dean\AppData\Local\Temp\1754492754792.png)
+![75449275479](https://github.com/2019598399/-transformer-/blob/main/train_loss_curve.png)
 
 ​												图二
 
@@ -240,6 +240,7 @@ python\ndef climbing_stairs(n: int) -> int:\n    if n == 0 or n == 1:\n        r
 4. **选择题**：输出格式优化
 
 > 测试条件：相同prompt模板，temperature=0.8
+
 
 
 
