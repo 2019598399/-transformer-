@@ -39,7 +39,13 @@ pip install -r requirements.txt
 
 训练支持Windows和Linux操作系统。
 
-2.安装推理后端框架
+2.通过百度网盘下载原模型和合并参数后的模型，如果您需要自己训练，只需下载原模型：
+
+Qwen2.5-3B(原模型):链接: https://pan.baidu.com/s/19xrCEUf_2ZBVzUnxEyRdTw?pwd=3s6g 提取码: 3s6g 
+qwen2.5-merged-3b(合并参数后的模型):链接: https://pan.baidu.com/s/1O55B_f77IYDBwJ6y3egtFg 提取码: 8br3 
+下载压缩包后在本地解压，将整个名为Qwen2.5-3B或qwen2.5-merged-3b文件夹移动到您的项目文件夹根目录下
+
+3.安装推理后端框架
 
 ```shell
 mkdir -p requirements 
@@ -234,4 +240,5 @@ python\ndef climbing_stairs(n: int) -> int:\n    if n == 0 or n == 1:\n        r
 4. **选择题**：输出格式优化
 
 > 测试条件：相同prompt模板，temperature=0.8
+
 
